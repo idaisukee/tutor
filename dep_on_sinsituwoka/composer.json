@@ -1,0 +1,19 @@
+{
+	"repositories": [
+		{
+			"type":"package",
+			"package": {
+				"name": "idaisukee/Sinsituwoka.php",
+				"version":"master",
+				"source": {
+					"url": "https://github.com/idaisukee/Sinsituwoka.php",
+					"type": "git",
+					"reference":"master"
+				}
+			}
+		}
+	],
+	"require": {
+		"idaisukee/Sinsituwoka.php": "master"
+	}
+}

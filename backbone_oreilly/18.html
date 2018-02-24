@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf8">
+    <title></title>
+    <meta name="description" content="">
+  </head>
+
+  <body>
+    <div id="myLibraryViewSection">
+      <script type="text/template" id="library-template">
+        <ul>
+        <% for (var i=0; i < library.length; i++) { %>
+        <% var book = library[i]; %>
+        <li>
+        <em><%= book.name %></em> by <%= book.author %>
+        </li>
+        <% } %>
+        </ul>
+      </script>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="node_modules/backbone/backbone.js"></script>
+    <script src="18.js"></script>
+  </body>
+</html>
